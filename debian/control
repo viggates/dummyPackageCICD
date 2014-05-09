@@ -1,0 +1,14 @@
+Source: mypackage
+Section: unknown
+Priority: extra
+Maintainer: root <root@unknown>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/mypackage.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/mypackage.git;a=summary
+
+Package: mypackage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, apache2
+Description: dummy package

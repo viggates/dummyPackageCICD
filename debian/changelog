@@ -1,0 +1,5 @@
+mypackage (1.0-2) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- root <root@unknown>  Sat, 03 May 2014 19:43:34 -0400
