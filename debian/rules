@@ -51,6 +51,7 @@ install: build
 	#$(MAKE) DESTDIR=$(CURDIR)/debian/filtered-log install
 	#-cp -r bosscloudgui/ $(CURDIR)/debian/bosscloudgui/usr/share
 	-cp -r dumb_pkg/pkg-version $(CURDIR)/debian/mypackage/var/www/test/index.html
+	-cp -r dumb_pkg/ATcfnJson.sh $(CURDIR)/debian/mypackage/var/www/test/
 
 # Build architecture-independent files here.
 binary-indep: build install
