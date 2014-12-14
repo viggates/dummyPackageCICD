@@ -8,4 +8,4 @@ admin_tenant_name:echo "admin"
 image_ref: nova image-list | grep cirros | awk {'print $2'} | sort | head -n 1
 image_ref_alt:nova image-list | grep cirros | awk {'print $2'} | sort | head -n 1
 flavor_ref:echo 1
-flavor_ref_alt:echo 4
+flavor_ref_alt:echo 2
